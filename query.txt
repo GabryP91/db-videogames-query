@@ -144,6 +144,7 @@
             *********** BONUS ***********
             10- Selezionare i dati della prima software house che ha rilasciato un gioco, assieme ai dati del gioco stesso (software house id : 5)
 
+            select top 1 * from videogames join software_houses on videogames.software_house_id=software_houses.id order by videogames.release_date ;
 
             11- Selezionare i dati del videogame (id, name, release_date, totale recensioni) con più recensioni (videogame id : 398)
             12- Selezionare la software house che ha vinto più premi tra il 2015 e il 2016 (software house id : 1)
