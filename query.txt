@@ -139,7 +139,7 @@
             join tournaments on tournaments.id= player_tournament.tournament_id
             join tournament_videogame on tournament_videogame.tournament_id = tournaments.id
             join videogames on videogames.id = tournament_videogame.videogame_id
-            where tournaments.year=2019 and videogame_id=58;
+            where tournaments.year=2019 and tournament_videogame.videogame_id=58;
 
             *********** BONUS ***********
             10- Selezionare i dati della prima software house che ha rilasciato un gioco, assieme ai dati del gioco stesso (software house id : 5)
